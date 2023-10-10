@@ -50,3 +50,53 @@ let melhorTime = {
 
 console.log(`Atualmente o ${melhorTime.time} é o melhor time da ${melhorTime.continente} tendo o total de ${melhorTime.Libertadores} libertadores e sendo o atual ${melhorTime.Brasileirao} do brasileirão. O ${melhorTime.time} tem ${melhorTime.Idade} e o  maior idolo do time é o ${melhorTime.Idolo}. O pior time da história do futebol é o ${melhorTime.piorTime}`);
 
+// Objeto com array e com outro objeto 
+
+let pessoa = {
+    nome: "Shiryu",
+    idade: 20,
+    telefones: ["(11) 96310-2324", "(11) 96344-7774 "],
+    medidas: {
+        peso: 65,
+        altura: 1.84
+    } 
+}
+
+console.log(`Nome: ${pessoa.nome}`);
+console.log(`Celular: ${pessoa.telefones[0]}`);
+console.log(`Peso: ${pessoa.medidas.peso}kg`);
+
+// Array de objetos 
+
+let alunos = [
+    {
+        nome: "Rapahel veiga",
+        idade: 10
+    },
+    
+    {
+        nome: "Endrick",
+        idade: 17
+    },
+    
+    {
+        nome: "Kevin",
+        idade: 19
+    }
+]
+
+console.log(alunos[1].nome); //endrick
+console.log(alunos[0].nome); //Rapahel veiga
+
+// Array com matriz 
+
+let tecnologias = [
+    ["HTML5", "CSS3", "JavaScript"],
+    ["PHP", "SQL", "APIs", "Node", "Python"],
+    ["Figma", "Photoshop"],
+];
+
+console.log(tecnologias[1][3]);// node 
+console.log(tecnologias[2][1]);// Photoshop
+console.log(tecnologias[0][0]);// HTML5
+console.table(cursos)
