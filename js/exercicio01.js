@@ -1,3 +1,6 @@
+// Habilitando o modo estrito do JS 
+"use strict"
+
 /* 1. Crie um arquivo chamado **exercicio01.html**.
 
 2. A partir dele, faça um script chamado **exercicio01.js** (não se esqueça de usar a pasta `js`).
