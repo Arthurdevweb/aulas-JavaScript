@@ -17,8 +17,23 @@
     - Se não for nenhuma das condições anteriores, mostre **reprovado**. */
 
 
-    let nota1 = 8;
-    
+    let nota1 = 9;
     let nota2 = 5;
-
+    let media = (nota1 + nota2) / 2;
+    let situacao;
     
+
+    if ( media >= 7) {
+       situacao = "Aprovado(a) Parabéns" 
+    } 
+
+    else if ( media >= 5) {
+        situacao = "Recuperação! Ainda tem uma chance"
+    } 
+
+    else {
+        situacao= "Reprovado(a) ESTUDE MAIS"
+    }
+
+    console.log(` situação: ${situacao}`);
+
