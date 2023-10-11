@@ -11,9 +11,21 @@ Comandos tradicionais:
 
 Obs: normalmente o loop é controlado através de uma variável contadora.*/   
 
-let contador = 1;
+// let contador = 1;
 
-while (contador <= 5) {
-    console.log(`Valor de contador: ${contador}`);
+// while (contador <= 5) {
+//     console.log(`Valor de contador: ${contador}`);
+//     contador++;
+// }
+
+
+// EXEMPLO DO/WHILE (FAÇA/ENQUANTO)
+
+
+let contador = 10;
+do {
+    console.log(`Contador vale: ${contador}`);
     contador++;
 }
+
+while ( contador <=3)
