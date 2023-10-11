@@ -68,3 +68,21 @@ else {
     console.log("vá trabalhar...");
 }
 
+
+console.log("-----------------");
+
+
+
+// Operador lógico ! (NOT - NÃO)
+
+
+let blackFriday = true;
+
+if (!blackFriday) {
+    console.log("preços normais...");
+}
+
+else {
+    console.log("preços com desconto...");
+}
+
