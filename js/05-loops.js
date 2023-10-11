@@ -1,3 +1,5 @@
+"use strict"
+
 /* Comandos de repitação
 Instruções para realizar ações 
 por uma quantidade específica de vezes.
@@ -22,10 +24,22 @@ Obs: normalmente o loop é controlado através de uma variável contadora.*/
 // EXEMPLO DO/WHILE (FAÇA/ENQUANTO)
 
 
-let contador = 10;
+let i = 10;
 do {
-    console.log(`Contador vale: ${contador}`);
-    contador++;
+    console.log(`Contador vale: ${i}`);
+    i++;
 }
 
-while ( contador <=3)
+while ( i <=3)
+
+
+
+/* Obs: normalmente variáveis de controle de repetição são chamadas de i, j ou k */
+
+
+// EXEMPLO FOR (PARA)
+
+
+for (let i = 1; i <= 10; i++) {
+    console.log(`i vale ${i}`);
+}
