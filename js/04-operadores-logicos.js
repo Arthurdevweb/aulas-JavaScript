@@ -8,8 +8,8 @@ const limiteDeFaltas = 10;
 //Resultados do aluno fictício
 
 let aluno = "Arthur"
-let mediaFinal = 8.5;
-let faltas = 11;
+let mediaFinal = 9;
+let faltas = 10;
 let resultado;
 
 // Operador lógico E (AND)
@@ -24,19 +24,47 @@ let resultado;
 
 
 
-if (mediaFinal >= mediaMinima && faltas <= limiteDeFaltas) {
+// if (mediaFinal >= mediaMinima && faltas <= limiteDeFaltas) {
+//     resultado = "Aprovado";
+// }
+
+// else if (faltas > limiteDeFaltas) {
+//     resultado = ("Reprovado por faltas ");
+// }
+
+// else {
+//     resultado = "Reprovado"
+// }
+
+
+if (faltas > limiteDeFaltas) {
+    resultado = "Reprovado por faltas";
+}
+
+else if (mediaFinal >= mediaMinima) {
     resultado = "Aprovado";
 }
 
-else if (faltas > limiteDeFaltas) {
-    resultado = ("Reprovado por faltas ");
-}
-
 else {
-    resultado = "Reprovado"
+    resultado = "Reprovado";
 }
-
 console.log(` O aluno ${aluno} está ${resultado}`);
 console.log(`Média do aluno: ${mediaFinal}`);
 console.log(`Faltas do aluno: ${faltas} `);
+
+
+console.log("------------------------------------------------");
+
+
+// Operador lógico || (OR - OU)
+
+let diiDaSemana = "domingo";
+
+if (diiDaSemana == "sábado" || diiDaSemana == "domingo") {
+    console.log("Final de semana :)");
+}
+
+else {
+    console.log("vá trabalhar...");
+}
 
