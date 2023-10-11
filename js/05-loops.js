@@ -40,6 +40,27 @@ while ( i <=3)
 // EXEMPLO FOR (PARA)
 
 
-for (let i = 1; i <= 10; i++) {
-    console.log(`i vale ${i}`);
+// for (let i = 1; i <= 10; i++) {
+//     console.log(`i vale ${i}`);
+// }
+
+
+/*  Loop com array */
+
+
+let clientes = 
+[
+    "Raphael Veiga",
+     "Endrick", 
+     "Rony",
+      "Dudu", 
+      "Weverton",
+      "Kevin",
+      "Gustavo gomes"
+];
+
+let quantidade = clientes.length;
+
+for (let i = 0; i < quantidade; i++) {
+    console.log(`Cliente : ${clientes[i]}`);
 }
