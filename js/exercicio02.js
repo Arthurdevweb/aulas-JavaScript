@@ -17,19 +17,19 @@
 
 
 let alunos = [
-    {
+   {
         id: 1,
-        aluno: "Joãozinho"
+        nome: "Joãozinho"
     },
-
+ 
     {
         id: 2,
-        aluno: "Mariazinha"
+        nome: "Mariazinha"
     },
 
     {
         id: 3,
-        aluno: "Giuseppezinho"
+        nome: "Giuseppezinho"
     }
 ];
 
@@ -37,5 +37,7 @@ let alunos = [
 let quantidade = alunos.length;
 
 for (let i = 0; i < quantidade; i++) {
-    console.log(`alunos : ${alunos[i]}`);
+    console.log(alunos[i].nome);
 }
+
+console.log(alunos[2].nome)
