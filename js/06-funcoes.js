@@ -59,11 +59,27 @@ console.log(somar(30,47.8));
 /* Formatação de valores em reais */
 
 
-let preco = 1000;
+let preco = 5500;
 let desconto = preco *0.10; //10%
 let precoFinal = preco - desconto;
 
 
-console.log(`Preço: ${preco}`);
-console.log(`Desconto: ${desconto}`);
-console.log(`Preço final: ${precoFinal}`);
+function formatarPreco (valor){
+   return valor.toLocaleString("pt-br", {
+        style: "currency",
+        currency: "BRL"
+    })
+}
+
+
+console.log(`Preço: ${formatarPreco(preco)}`);
+
+
+
+console.log(`Desconto: ${formatarPreco(desconto)}`);
+
+
+
+
+
+console.log(`Preço final: ${formatarPreco(precoFinal)}`);
