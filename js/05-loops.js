@@ -67,3 +67,30 @@ for (let i = 0; i < quantidade; i++) {
 
 
  console.log("---------------------");
+
+
+ // for/ of -> para arrays
+
+ let jogos = ["Fortnite", "Fifa", "EA FC"];
+
+ for (let jogo of jogos){
+    console.log(jogo);
+ }
+
+
+ console.log("------------------");
+
+ // for/ in -> objetos 
+
+
+ let jogadores = {
+    palmeiras: "Endrick",
+    botafogo : "Tiquinho Soares",
+    fluminense: "Marcelo"
+ }
+
+ for (let atletas in jogadores) {
+    // console.log(atletas);
+
+    console.log(jogadores[atletas]);
+ }

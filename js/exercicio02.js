@@ -39,5 +39,3 @@ let quantidade = alunos.length;
 for (let i = 0; i < quantidade; i++) {
     console.log(alunos[i].nome);
 }
-
-console.log(alunos[2].nome)
