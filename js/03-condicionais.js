@@ -1,5 +1,5 @@
 /* Estruturas de controle de condicional
-Comandos que permitam analisar umas ou mais consições. E a oartir do resultado desta análise (verdeiro ou falso), o programa pode executar ações diferentes. 
+Comandos que permitam analisar umas ou mais consições. E a partir do resultado desta análise (verdeiro ou falso), o programa pode executar ações diferentes. 
 
 Comandos mais comuns: 
 
